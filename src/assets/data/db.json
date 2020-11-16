@@ -1,0 +1,316 @@
+{
+    "id": 1,
+    "name": " Quiz",
+    "questions": [
+        {
+            "id": 1,
+            "name": "Which of the following is not a hook application life cycle ?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1,
+                    "name": "ngOnChanges",
+                    "isAnswer": false
+                },
+                {
+                    "id": 2,                
+                    "name": "ngViewStart",
+                    "isAnswer": true
+                },
+                {
+                    "id": 3,                    
+                    "name": "ngOnInit",
+                    "isAnswer": false
+                },
+                {
+                    "id": 4,                    
+                    "name": "None of the above",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 2,
+            "name": "RxJS can be used for?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1,                   
+                    "name": "Browser",
+                    "isAnswer": false
+                },
+                {
+                    "id": 2,                    
+                    "name": "Server",
+                    "isAnswer": false
+                },
+                {
+                    "id": 3,                    
+                    "name": "Both",
+                    "isAnswer": true
+                },
+                {
+                    "id": 4,                    
+                    "name": "None",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 3,
+            "name": " What is .subscribe?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1,                    
+                    "name": "streams data asynchronously",
+                    "isAnswer": false
+                },
+                {
+                    "id": 2,                    
+                    "name": "streams data synchronously",
+                    "isAnswer": false
+                },
+                {
+                    "id": 3,                    
+                    "name": "both",
+                    "isAnswer": true
+                },
+                {
+                    "id": 4,                    
+                    "name": "None",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 4,
+            "name": " Router is part of @angular/core?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1,                    
+                    "name": "Yes",
+                    "isAnswer": true
+                },
+                {
+                    "id": 2,                    
+                    "name": "No",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 5,
+            "name": " How do I add scrolling text to my page?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1,                   
+                    "name": "<scroll>",
+                    "isAnswer": false
+                },
+                {
+                    "id": 2,                    
+                    "name": "<marquee>",
+                    "isAnswer": true
+                },
+                {
+                    "id": 3,                    
+                    "name": "<span>",
+                    "isAnswer": false
+                },
+                {
+                    "id": 4,                   
+                    "name": "None of the above",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 6,
+            "name": "Choose the correct HTML tag for the largest heading",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1,                  
+                    "name": "<h1>",
+                    "isAnswer": true
+                },
+                {
+                    "id": 2,      
+                    "name": "<h3>",
+                    "isAnswer": false
+                },
+                {
+                    "id": 3,                   
+                    "name": "<h6>",
+                    "isAnswer": false
+                },
+                {
+                    "id": 4,                  
+                    "name": "<h5>",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 7,
+            "name": "Which HTML attribute is used to define inline styles?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1,          
+                    "name": "style",
+                    "isAnswer": true
+                },
+                {
+                    "id": 2,                  
+                    "name": "script",
+                    "isAnswer": false
+                },
+                {
+                    "id":3,                    
+                    "name": "styles",
+                    "isAnswer": false
+                },
+                {
+                    "id": 4,                  
+                    "name": "inline",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 8,
+            "name": "If we want define style for an unique element, then which css selector will we use ?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1,                 
+                    "name": "class",
+                    "isAnswer": false
+                },
+                {
+                    "id": 2,                   
+                    "name": "text",
+                    "isAnswer": false
+                },
+                {
+                    "id": 3,                
+                    "name": "name",
+                    "isAnswer":false
+                },
+                {
+                    "id": 4,              
+                    "name": "id",
+                    "isAnswer": true
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 9,
+            "name": "How can we write comment along with CSS code ??",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1,                   
+                    "name": "//comment",
+                    "isAnswer": false
+                },
+                {
+                    "id": 2,                    
+                    "name": "/comment/",
+                    "isAnswer": false
+                },
+                {
+                    "id": 3,                  
+                    "name": "/*comment*/",
+                    "isAnswer": true
+                },
+                {
+                    "id":4,              
+                    "name": "<comment>",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 10,
+            "name": "Which CSS property is used to control the text size of an element ?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1,               
+                    "name": "font-size",
+                    "isAnswer": true
+                },
+                {
+                    "id": 2,   
+                    "name": "text-size",
+                    "isAnswer": false
+                },
+                {
+                    "id": 3,                
+                    "name": "font-style",
+                    "isAnswer": false
+                },
+                {
+                    "id": 4,                   
+                    "name": "text-style",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        }
+    ]
+}

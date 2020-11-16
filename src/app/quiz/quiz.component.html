@@ -1,0 +1,54 @@
+<div class="main-quiz">
+  <div id="quiz">
+    <h2 class="text-center font-weight-normal">{{quiz.name}}</h2>
+    <hr />
+    <div>
+      <div *ngIf="mode=='quiz' && quiz">
+        <div *ngFor="let question of questionnaire;">
+          <div>{{pager.index + 1}} of {{pager.count}}</div>
+          <h3 >
+            <span [innerHTML]="question.name"></span>
+          </h3><br>
+          <div class="row ">
+            <div class="col-6" *ngFor="let option of question.options">
+              <div>
+                <label [attr.for]="option.id">
+                  <input id="{{option.id}}" type="checkbox" [(ngModel)]="option.selected"
+                    (change)="onSelect(question, option);" /> {{option.name}}
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr/>
+        <div class="text-center">
+          <button class="btn btn-warning btn-prev" *ngIf="config.allowBack"
+            (click)="goTo(pager.index - 1);">Previous Question</button>
+          &nbsp;&nbsp;
+          <button class="btn btn-primary btn-next" (click)="goTo(pager.index + 1);">Next Question</button>
+          <button class="btn btn-success btn-submit" (click)="onSubmit();">Submit Quiz</button>
+        </div><br>
+      </div>
+
+      <div class="result" *ngIf="mode=='result'">
+        <h2>Quiz Result</h2>
+        <div>
+        <h4 >Correct answers: {{correctAnswersCount}} &nbsp;&nbsp;&nbsp;&nbsp;Incorrect answers: {{10-correctAnswersCount}}</h4>
+      </div>
+        <div *ngFor="let question of quiz.questions; let index = index">
+          <div class="result-question">
+            <h5>{{index + 1}}. {{question.name}}</h5>
+            <div class="row">
+              <div class="col-6" *ngFor="let Option of question.options">
+                <input id="{{Option.id}}" type="checkbox" disabled="disabled" [(ngModel)]="Option.selected" />
+                {{Option.name}}
+              </div>
+            </div>
+            <div class="alert-primary">Your answer
+              is{{question.verdict}}.</div>
+          </div>
+        </div>
+        </div>
+    </div>
+  </div>
+</div>

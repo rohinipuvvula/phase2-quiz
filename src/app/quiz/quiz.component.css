@@ -1,0 +1,20 @@
+
+.main-quiz{
+    margin: 20px 20px 0px;
+}
+
+.btn-prev{
+    float: left;
+}
+
+.btn-next{
+    float:inherit;
+}
+
+.btn-submit{
+    float:right;
+}
+
+.btn{
+    border-radius: 12px;
+}
